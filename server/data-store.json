@@ -107,6 +107,18 @@
       "year": "3rd Year",
       "createdAt": "2026-09-23T12:12:50.293Z",
       "updatedAt": "2026-09-23T12:12:50.293Z"
+    },
+    {
+      "id": "usr-1792863318449-yg1mhn",
+      "name": "cse3a",
+      "email": "cseritche@gmail.com",
+      "passwordHash": "$2a$10$xeaN/d9xsP2IkRjWRmKwGOWpvhL.YQCzvbqlQIojwk/hzrH6rpjdS",
+      "role": "STUDENT",
+      "rollNumber": "cse536",
+      "department": "Computer Science & Engineering",
+      "year": "3rd Year",
+      "createdAt": "2026-10-24T17:35:18.449Z",
+      "updatedAt": "2026-10-24T17:35:18.449Z"
     }
   ],
   "announcements": [
@@ -325,6 +337,18 @@
   ],
   "queries": [
     {
+      "id": "qry-1792863411881-q2szbx",
+      "subject": "hackathon",
+      "message": "when is hackathon",
+      "status": "RESOLVED",
+      "response": "it is conducting on october 27 by the department of CSE",
+      "studentId": "usr-1792863318449-yg1mhn",
+      "respondedBy": "admin-user-001",
+      "respondedAt": "2026-10-24T17:53:36.868Z",
+      "createdAt": "2026-10-24T17:36:51.881Z",
+      "updatedAt": "2026-10-24T17:53:36.869Z"
+    },
+    {
       "id": "qry-1789737166085-6hmrrh",
       "subject": "Cap-stone Project Presentation Schedule",
       "message": "Could our team present during the morning slot on Friday?",
@@ -373,18 +397,6 @@
       "updatedAt": "2026-08-19T09:25:14.589Z"
     },
     {
-      "id": "qry-001",
-      "subject": "Correction in Elective Course Registration Portal",
-      "message": "Hello Admin, I am trying to enroll in \"Advanced Deep Learning\" under CSE Elective IV, but the portal throws a prerequisite error for CS302 which I have already completed in semester 4. Could you please review and unlock the slot?",
-      "status": "RESOLVED",
-      "response": "Dear Aarav, We have verified your academic transcript and updated your prerequisites in the portal database. You can now successfully enroll in Advanced Deep Learning. Let us know if you encounter any other issues.",
-      "studentId": "student-user-001",
-      "respondedBy": "admin-user-001",
-      "createdAt": "2026-08-17T08:54:08.190Z",
-      "updatedAt": "2026-08-18T08:54:08.190Z",
-      "respondedAt": "2026-08-18T08:54:08.190Z"
-    },
-    {
       "id": "qry-002",
       "subject": "Hostel Wi-Fi Connectivity and Bandwidth in Block C",
       "message": "The Wi-Fi access points on the 3rd floor of Hostel Block C are experiencing frequent disconnects during evening study hours (7 PM to 10 PM). Requesting IT department to check the router.",
@@ -410,6 +422,26 @@
     }
   ],
   "notifications": [
+    {
+      "id": "notif-1792864416872-0s0u9z",
+      "title": "💬 Admin Responded to: hackathon",
+      "message": "Admin Dr. Evelyn Vance: \"it is conducting on october 27 by the department of CSE\"",
+      "type": "QUERY_REPLY",
+      "read": false,
+      "link": "/student/qa",
+      "userId": "usr-1792863318449-yg1mhn",
+      "createdAt": "2026-10-24T17:53:36.872Z"
+    },
+    {
+      "id": "notif-1792863318452-21cfsb",
+      "title": "🎓 Welcome to NotifyHub!",
+      "message": "Welcome cse3a! Your student account is now active. Check announcements, events, and college notices.",
+      "type": "SYSTEM",
+      "read": false,
+      "link": "/student/home",
+      "userId": "usr-1792863318449-yg1mhn",
+      "createdAt": "2026-10-24T17:35:18.452Z"
+    },
     {
       "id": "notif-1790165570296-04161p",
       "title": "🎓 Welcome to NotifyHub!",
@@ -832,6 +864,42 @@
     }
   ],
   "activityLogs": [
+    {
+      "id": "act-1792864439201-nsjm7w",
+      "action": "ADMIN_LOGOUT",
+      "entityType": "Auth",
+      "entityId": "admin-user-001",
+      "details": "Administrator Dr. Evelyn Vance logged out.",
+      "adminId": "admin-user-001",
+      "createdAt": "2026-10-24T17:53:59.201Z"
+    },
+    {
+      "id": "act-1792864416875-9v4e72",
+      "action": "QUERY_RESPONDED",
+      "entityType": "Query",
+      "entityId": "qry-1792863411881-q2szbx",
+      "details": "Administrator Dr. Evelyn Vance responded to query \"hackathon\" (Status: RESOLVED).",
+      "adminId": "admin-user-001",
+      "createdAt": "2026-10-24T17:53:36.875Z"
+    },
+    {
+      "id": "act-1792864314161-rueco5",
+      "action": "QUERY_DELETED",
+      "entityType": "Query",
+      "entityId": "qry-001",
+      "details": "Deleted student query \"Correction in Elective Course Registration Portal\".",
+      "adminId": "admin-user-001",
+      "createdAt": "2026-10-24T17:51:54.161Z"
+    },
+    {
+      "id": "act-1792864294135-bek6ph",
+      "action": "ADMIN_LOGIN",
+      "entityType": "Auth",
+      "entityId": "admin-user-001",
+      "details": "Administrator Dr. Evelyn Vance logged in.",
+      "adminId": "admin-user-001",
+      "createdAt": "2026-10-24T17:51:34.135Z"
+    },
     {
       "id": "act-1789737166096-hqbzi1",
       "action": "QUERY_RESPONDED",
