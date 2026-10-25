@@ -125,11 +125,11 @@ Create a `.env` file in the `server/` directory (or copy from `.env.example`):
 ```env
 PORT=5000
 NODE_ENV=development
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/notifyhub?schema=public"
-JWT_SECRET="notifyhub_super_secret_jwt_key_2026_modern_campus_platform"
+DATABASE_URL="postgresql://<username>:<password>@localhost:5432/notifyhub?schema=public"
+JWT_SECRET="your_jwt_secret_key_here"
 JWT_EXPIRES_IN="7d"
 CLIENT_URL="http://localhost:5173"
-COOKIE_SECRET="notifyhub_cookie_secret_key_2026"
+COOKIE_SECRET="your_cookie_secret_key_here"
 ```
 
 ### 4. Database Setup & Prisma Migrations (PostgreSQL)
@@ -215,3 +215,4 @@ node server/test-e2e.js
 ### System & Health
 - `GET /api/activity` — *[Admin]* Retrieve activity audit logs
 - `GET /api/health` — Live server uptime, database status, memory metrics, and API latency
+
