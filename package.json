@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "NotifyHub - Modern College Communication & Notification Platform",
   "private": true,
+  "type": "module",
   "workspaces": [
     "client",
     "server"
